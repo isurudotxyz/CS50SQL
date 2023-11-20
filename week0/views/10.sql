@@ -1,0 +1,1 @@
+SELECT "japanese_title" FROM "views"AS "MY FAVOURITE" WHERE "artist" = 'Hokusai' ORDER BY "entropy" DESC LIMIT 1 ;

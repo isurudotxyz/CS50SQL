@@ -1,0 +1,1 @@
+SELECT "first_name","last_name" AS "Most HEIGHT US CITIZEN" FROM "players" WHERE  birth_country = "USA" ORDER BY "height" DESC LIMIT 1;
