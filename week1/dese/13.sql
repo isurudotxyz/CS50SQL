@@ -1,0 +1,1 @@
+SELECT "districts"."city", "schools"."name" FROM "districts" JOIN "schools" ON "districts"."id" = "schools"."district_id" WHERE "schools"."type" LIKE "Public%";

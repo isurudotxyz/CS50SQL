@@ -1,0 +1,2 @@
+-- FIND NAME OF DISTRICTS NO LONGER OPERATIONAL
+SELECT "name" FROM "districts" WHERE "name" LIKE '%(non-op)';

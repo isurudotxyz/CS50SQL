@@ -1,0 +1,1 @@
+SELECT "salary" FROM "salaries" WHERE "year" = 2001 AND "player_id" = 1720 ORDER BY "salary" DESC LIMIT 1;

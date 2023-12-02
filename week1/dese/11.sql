@@ -1,0 +1,1 @@
+SELECT "schools"."name","per_pupil_expenditure","graduated" FROM "districts" JOIN "expenditures" ON "expenditures"."district_id" = "districts"."id" JOIN "schools" ON "districts"."id" = "schools"."district_id" JOIN "graduation_rates" ON "schools"."id" = "graduation_rates"."school_id" ORDER BY "per_pupil_expenditure" DESC,"schools"."name";
